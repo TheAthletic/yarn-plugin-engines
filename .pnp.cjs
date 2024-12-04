@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["@yarnpkg/fslib", "npm:2.6.1"],\
             ["prettier", "npm:2.6.2"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.6.3"],\
             ["tape", "npm:5.5.2"],\
             ["ts-node", "virtual:b2bb5e2c50c023011be6d4457577d9e05fd99d103b24a89469beb025a7edb0d09d0b8cb3e67162d31ae9955aa7e8dc6edda987ac18ed15e546acd2f67350cdde#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
@@ -2857,6 +2857,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.6.3", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.6.3-57e82c14d5-4110ec5d01.zip/node_modules/semver/",\
+          "packageDependencies": [\
+            ["semver", "npm:7.6.3"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["shebang-command", [\
@@ -3331,7 +3338,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["@yarnpkg/fslib", "npm:2.6.1"],\
             ["prettier", "npm:2.6.2"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.6.3"],\
             ["tape", "npm:5.5.2"],\
             ["ts-node", "virtual:b2bb5e2c50c023011be6d4457577d9e05fd99d103b24a89469beb025a7edb0d09d0b8cb3e67162d31ae9955aa7e8dc6edda987ac18ed15e546acd2f67350cdde#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
